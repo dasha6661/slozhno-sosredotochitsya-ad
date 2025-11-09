@@ -1,4 +1,4 @@
-const gulp = require('gulp');
+const gulp = require('gulp'); 
 const browserSync = require('browser-sync').create();
 const plumber = require('gulp-plumber');
 const del = require('del');

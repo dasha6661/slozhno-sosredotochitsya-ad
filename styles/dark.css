@@ -1,49 +1,25 @@
-.page.theme_dark .header,
-.page.theme_dark .button,
-.page.theme_dark .header__title,
-.page.theme_dark .card-header,
-.page.theme_dark .accent-heading {
-  color: #ff0070;
-}
-
-.page.theme_dark .card,
-.page.theme_dark .content {
-  background-color: #000028;
-}
-
-.page.theme_dark .header__title,
-.page.theme_dark .footer__title {
-  color: #db00ff;
-}
-
-.page.theme_dark .card-text,
-.page.theme_dark .paragraph {
-  color: #f1b2ce;
-}
-
-.page.theme_dark .header__theme-menu-button:hover {
-  border-color: #ff007066;
-}
-
-.page.theme_dark .section__header,
-.page.theme_dark h2,
-.page.theme_dark h3 {
-  color: #ff0070;
-}
-
-.page.theme_dark .decorated-zone::before,
-.page.theme_dark .decorated-zone::after {
-  border-color: #ff0070;
-}
-
-.page.theme_dark .header__theme-menu-button {
-  color: #ff0070;
-}
-
-.page.theme_dark .header__rec {
-  color: #ff0070;
-}
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
 
 .page.theme_dark {
-  background-image: url(../images/cover-image-dark.png);
+    --bg-color: #000028;
+    --title-color: #DB00FF;
+    --header-color: #FF0070;
+    --subheader-color: #000028;
+    --text-color: #F1B2CE;
+    --menu-color: #FF0070;
+    --shadow-color: #FF0071;
+    --link-shadow-color: #FF0070;
+    --accent-color: #FF0070;
+    --corner-color: #FF0070;
+    --accent-color-alpha40: rgba(255, 0, 112, 0.4);
+    --main-font: 'IBM Plex mono';
+    --bg-img: url(../images/cover-image-dark.png);
+}
+
+.theme_dark .header__topcorner {
+  display: inline;
 }

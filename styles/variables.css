@@ -1,17 +1,10 @@
 :root {
-  --main-font: 'IBM Plex mono';
-  --gap: 20px;
-  --cover-image: url(../images/cover-image-dark.png);
-  --accent-heading-fs-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --accent-heading-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --accent-heading-clr: #db00ff;
-  --accent-clr: #ff0070;
-  --heading-clr: #ff0070;
-  --headers-clr: #ff0070;
-  --menu-clr: #ff0070;
-  --text-clr: #f1b2ce;
-  --accent-clr-with-background: #000028;
-  --decorative-bracket-clr: #ff0070;
-  --rec-decoration-clr: #ff0070;
-  --button-hover-clr: #ff007066;
+  --font: 'IBM Plex mono';
+  --font-size: 18px;
+  --title-color: #DB00FF;
+  --text-color: #F1B2CE;
+  --accent-color: #ff0070;
+  --btn-color:#ff0070;
+  --sub-text-color: #000028;
+  --backgroung-image: url(../images/cover-image-dark.png);
 }

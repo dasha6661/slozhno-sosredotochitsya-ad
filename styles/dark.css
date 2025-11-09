@@ -1,4 +1,5 @@
-.page.theme_dark { 
+.page.theme_dark 
+{
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
   --accent-color: #ff0070;
@@ -7,10 +8,12 @@
   --sub-text-color: #000028;
 }
 
-.theme_dark .header__theme-menu-button:hover {
+.theme_dark .header__theme-menu-button:hover 
+{
   border: 1px solid rgba(255, 0, 112, 0.40);
 }
 
-.theme_dark .decorative__element {
+.theme_dark .decorative__element 
+{
   display: flex;
 }
